@@ -1,0 +1,6 @@
+from textblob import TextBlob
+
+text = "I love Python!"
+blob = TextBlob(text)
+sentiment = blob.sentiment
+print("Sentiment:", sentiment)
